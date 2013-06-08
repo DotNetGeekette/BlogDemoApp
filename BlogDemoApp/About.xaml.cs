@@ -24,30 +24,32 @@ namespace BlogDemoApp
             NavigationService.GoBack();
         }
 
-        /*
+        
 
         public void EmailBtn_Click(object sender, RoutedEventArgs e)
         {
             var emailer = new EmailComposeTask();
-            emailer.To = "jamie@dotnetgeekette.com";
-            emailer.Subject = "Sample App Inquiry";
+            emailer.To = "Insert your email address here";
+            emailer.Subject = "Support Request for Sample App";
+            emailer.Body = String.Empty;
             emailer.Show();
         }
+
+        
 
         public void ReviewBtn_Click(object sender, RoutedEventArgs e)
         {
             var reviewer = new MarketplaceReviewTask();
             reviewer.Show();
         }
+        
 
         public void OtherAppsBtn_Click(object sender, RoutedEventArgs e)
         {
             var searcher = new MarketplaceSearchTask();
-            searcher.SearchTerms = "Jerrel Blankenship";
+            searcher.SearchTerms = "Insert your Windows Store user name here";
             searcher.Show();
         }
-         * 
-         */
 
     
     }

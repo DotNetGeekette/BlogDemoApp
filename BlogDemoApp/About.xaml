@@ -29,10 +29,10 @@
         <!--ContentPanel - place additional content here-->
         <StackPanel x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
             <TextBlock>This it's not all that exciting right now.</TextBlock>
-            <!--<Button x:Name="EmailBtn" Click="EmailBtn_Click">Contact DotNetGeekette</Button>
+            <Button x:Name="EmailBtn" Click="EmailBtn_Click">Contact DotNetGeekette</Button>
             <Button x:Name="ReviewBtn" Click="ReviewBtn_Click">Review this App</Button>
             <Button x:Name="OtherAppsBtn" Click="OtherAppsBtn_Click">See My Other Apps</Button>
-            <Rectangle Height="250px"/>-->
+            <Rectangle Height="250" />
             <Button x:Name="BackBtn" Click="BackBtn_Click">Back to Main Page</Button>
         </StackPanel>
     </Grid>
