@@ -55,6 +55,8 @@
             <StackPanel Grid.Row="1">
                 <TextBlock TextAlignment="Center">Result:</TextBlock>
                 <Rectangle Fill="Red" Height="100" />
+                <Rectangle Height="300" />
+                <Button x:Name="AboutBtn" Click="AboutBtn_Click" VerticalAlignment="Bottom">Go To About Page</Button>
 
             </StackPanel>
 
@@ -72,7 +74,7 @@
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
-                <TextBox x:Name="Number" Height="75" InputScope="Number" Grid.Row="0" Grid.Column="0" VerticalAlignment="Top" Margin="0,9,0,0"></TextBox>
+                <TextBox x:Name="Number" Height="75" InputScope="Number" Grid.Row="0" Grid.Column="0" VerticalAlignment="Top" Margin="0,9,0,0" Background="White"></TextBox>
                 <toolkit:ListPicker Grid.Row="0" Grid.Column="1" VerticalAlignment="Top" >
                     <toolkit:ListPickerItem Content="Option1" Background="White" />
                     <toolkit:ListPickerItem Content="Option2" Background="White" />
